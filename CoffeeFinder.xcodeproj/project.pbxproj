@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38151FA41CB4A2B100FF55DD /* ACFoursquareWSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 38151FA31CB4A2B100FF55DD /* ACFoursquareWSClient.m */; };
+		387248AF1CB4C7A1004325FE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387248AE1CB4C7A1004325FE /* CoreLocation.framework */; };
+		387248B21CB50210004325FE /* ACUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 387248B11CB50210004325FE /* ACUtility.m */; };
+		387248B51CB50F5A004325FE /* ACFoursquareVenuesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 387248B41CB50F5A004325FE /* ACFoursquareVenuesService.m */; };
+		387248B81CB52C33004325FE /* ACFoursquareWSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 387248B71CB52C33004325FE /* ACFoursquareWSResponse.m */; };
+		387248BB1CB5459E004325FE /* ACFoursquareVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 387248BA1CB5459E004325FE /* ACFoursquareVenue.m */; };
+		387248C01CB55A39004325FE /* ACCoffeeFinderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 387248BF1CB55A39004325FE /* ACCoffeeFinderTableViewCell.xib */; };
+		388977141CB46AE60032E11C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 388977131CB46AE60032E11C /* main.m */; };
+		388977171CB46AE60032E11C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 388977161CB46AE60032E11C /* AppDelegate.m */; };
+		3889771F1CB46AE60032E11C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3889771E1CB46AE60032E11C /* Assets.xcassets */; };
+		388977221CB46AE60032E11C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388977201CB46AE60032E11C /* LaunchScreen.storyboard */; };
+		3889772D1CB46AE60032E11C /* CoffeeFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3889772C1CB46AE60032E11C /* CoffeeFinderTests.m */; };
+		388977381CB46AE60032E11C /* CoffeeFinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 388977371CB46AE60032E11C /* CoffeeFinderUITests.m */; };
+		388977471CB46CF20032E11C /* ACCoffeeFinderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 388977461CB46CF20032E11C /* ACCoffeeFinderViewController.m */; };
+		389408EE1CB5ED03003DCC5E /* ACCoffeeFinderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 389408ED1CB5ED03003DCC5E /* ACCoffeeFinderTableViewCell.m */; };
+		389408F01CB61FF6003DCC5E /* ACFoursquareWSClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 389408EF1CB61FF6003DCC5E /* ACFoursquareWSClientTests.m */; };
+		389408F21CB62D31003DCC5E /* ACFoursquareVenueServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 389408F11CB62D31003DCC5E /* ACFoursquareVenueServiceTests.m */; };
+		389408F41CB62F15003DCC5E /* ACFoursquareWSResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 389408F31CB62F15003DCC5E /* ACFoursquareWSResponseTests.m */; };
+		389408F61CB63320003DCC5E /* ACFoursquareVenueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 389408F51CB63320003DCC5E /* ACFoursquareVenueTests.m */; };
+		9AD1155E64B35DD9BCA0F234 /* libPods-CoffeeFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A207BFC9C80993B2985685 /* libPods-CoffeeFinder.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		388977291CB46AE60032E11C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388977071CB46AE50032E11C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3889770E1CB46AE50032E11C;
+			remoteInfo = CoffeeFinder;
+		};
+		388977341CB46AE60032E11C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388977071CB46AE50032E11C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3889770E1CB46AE50032E11C;
+			remoteInfo = CoffeeFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		220D44B089B252DDEE319E2F /* Pods-CoffeeFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeeFinder/Pods-CoffeeFinder.release.xcconfig"; sourceTree = "<group>"; };
+		30A207BFC9C80993B2985685 /* libPods-CoffeeFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38151FA21CB4A2B100FF55DD /* ACFoursquareWSClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACFoursquareWSClient.h; sourceTree = "<group>"; };
+		38151FA31CB4A2B100FF55DD /* ACFoursquareWSClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFoursquareWSClient.m; sourceTree = "<group>"; };
+		387248AE1CB4C7A1004325FE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		387248B01CB50210004325FE /* ACUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACUtility.h; sourceTree = "<group>"; };
+		387248B11CB50210004325FE /* ACUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACUtility.m; sourceTree = "<group>"; };
+		387248B31CB50F5A004325FE /* ACFoursquareVenuesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACFoursquareVenuesService.h; sourceTree = "<group>"; };
+		387248B41CB50F5A004325FE /* ACFoursquareVenuesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFoursquareVenuesService.m; sourceTree = "<group>"; };
+		387248B61CB52C33004325FE /* ACFoursquareWSResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACFoursquareWSResponse.h; sourceTree = "<group>"; };
+		387248B71CB52C33004325FE /* ACFoursquareWSResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFoursquareWSResponse.m; sourceTree = "<group>"; };
+		387248B91CB5459E004325FE /* ACFoursquareVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACFoursquareVenue.h; sourceTree = "<group>"; };
+		387248BA1CB5459E004325FE /* ACFoursquareVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFoursquareVenue.m; sourceTree = "<group>"; };
+		387248BF1CB55A39004325FE /* ACCoffeeFinderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACCoffeeFinderTableViewCell.xib; sourceTree = "<group>"; };
+		3889770F1CB46AE60032E11C /* CoffeeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		388977131CB46AE60032E11C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		388977151CB46AE60032E11C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		388977161CB46AE60032E11C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3889771E1CB46AE60032E11C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		388977211CB46AE60032E11C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		388977231CB46AE60032E11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388977281CB46AE60032E11C /* CoffeeFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3889772C1CB46AE60032E11C /* CoffeeFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeFinderTests.m; sourceTree = "<group>"; };
+		3889772E1CB46AE60032E11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388977331CB46AE60032E11C /* CoffeeFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		388977371CB46AE60032E11C /* CoffeeFinderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeFinderUITests.m; sourceTree = "<group>"; };
+		388977391CB46AE60032E11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388977451CB46CF20032E11C /* ACCoffeeFinderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACCoffeeFinderViewController.h; sourceTree = "<group>"; };
+		388977461CB46CF20032E11C /* ACCoffeeFinderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACCoffeeFinderViewController.m; sourceTree = "<group>"; };
+		389408EC1CB5ED03003DCC5E /* ACCoffeeFinderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACCoffeeFinderTableViewCell.h; sourceTree = "<group>"; };
+		389408ED1CB5ED03003DCC5E /* ACCoffeeFinderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACCoffeeFinderTableViewCell.m; sourceTree = "<group>"; };
+		389408EF1CB61FF6003DCC5E /* ACFoursquareWSClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFoursquareWSClientTests.m; sourceTree = "<group>"; };
+		389408F11CB62D31003DCC5E /* ACFoursquareVenueServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFoursquareVenueServiceTests.m; sourceTree = "<group>"; };
+		389408F31CB62F15003DCC5E /* ACFoursquareWSResponseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFoursquareWSResponseTests.m; sourceTree = "<group>"; };
+		389408F51CB63320003DCC5E /* ACFoursquareVenueTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFoursquareVenueTests.m; sourceTree = "<group>"; };
+		3D9A4A681307F77F2A8AC298 /* Pods-CoffeeFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeeFinder/Pods-CoffeeFinder.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3889770C1CB46AE50032E11C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387248AF1CB4C7A1004325FE /* CoreLocation.framework in Frameworks */,
+				9AD1155E64B35DD9BCA0F234 /* libPods-CoffeeFinder.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388977251CB46AE60032E11C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388977301CB46AE60032E11C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C9FBF01CDABDD164E2E5DFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D9A4A681307F77F2A8AC298 /* Pods-CoffeeFinder.debug.xcconfig */,
+				220D44B089B252DDEE319E2F /* Pods-CoffeeFinder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		387248BD1CB54AB1004325FE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				38151FA21CB4A2B100FF55DD /* ACFoursquareWSClient.h */,
+				38151FA31CB4A2B100FF55DD /* ACFoursquareWSClient.m */,
+				387248B31CB50F5A004325FE /* ACFoursquareVenuesService.h */,
+				387248B41CB50F5A004325FE /* ACFoursquareVenuesService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		387248BE1CB54B51004325FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				387248B61CB52C33004325FE /* ACFoursquareWSResponse.h */,
+				387248B71CB52C33004325FE /* ACFoursquareWSResponse.m */,
+				387248B91CB5459E004325FE /* ACFoursquareVenue.h */,
+				387248BA1CB5459E004325FE /* ACFoursquareVenue.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		388977061CB46AE50032E11C = {
+			isa = PBXGroup;
+			children = (
+				388977111CB46AE60032E11C /* CoffeeFinder */,
+				3889772B1CB46AE60032E11C /* CoffeeFinderTests */,
+				388977361CB46AE60032E11C /* CoffeeFinderUITests */,
+				388977101CB46AE60032E11C /* Products */,
+				2C9FBF01CDABDD164E2E5DFE /* Pods */,
+				DCA00A21C5090632DCB33060 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		388977101CB46AE60032E11C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3889770F1CB46AE60032E11C /* CoffeeFinder.app */,
+				388977281CB46AE60032E11C /* CoffeeFinderTests.xctest */,
+				388977331CB46AE60032E11C /* CoffeeFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		388977111CB46AE60032E11C /* CoffeeFinder */ = {
+			isa = PBXGroup;
+			children = (
+				388977151CB46AE60032E11C /* AppDelegate.h */,
+				388977161CB46AE60032E11C /* AppDelegate.m */,
+				3889771E1CB46AE60032E11C /* Assets.xcassets */,
+				388977201CB46AE60032E11C /* LaunchScreen.storyboard */,
+				388977231CB46AE60032E11C /* Info.plist */,
+				388977121CB46AE60032E11C /* Supporting Files */,
+				388977451CB46CF20032E11C /* ACCoffeeFinderViewController.h */,
+				388977461CB46CF20032E11C /* ACCoffeeFinderViewController.m */,
+				387248BF1CB55A39004325FE /* ACCoffeeFinderTableViewCell.xib */,
+				389408EC1CB5ED03003DCC5E /* ACCoffeeFinderTableViewCell.h */,
+				389408ED1CB5ED03003DCC5E /* ACCoffeeFinderTableViewCell.m */,
+				387248B01CB50210004325FE /* ACUtility.h */,
+				387248B11CB50210004325FE /* ACUtility.m */,
+				387248BE1CB54B51004325FE /* Model */,
+				387248BD1CB54AB1004325FE /* Services */,
+			);
+			path = CoffeeFinder;
+			sourceTree = "<group>";
+		};
+		388977121CB46AE60032E11C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				388977131CB46AE60032E11C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3889772B1CB46AE60032E11C /* CoffeeFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3889772C1CB46AE60032E11C /* CoffeeFinderTests.m */,
+				3889772E1CB46AE60032E11C /* Info.plist */,
+				389408EF1CB61FF6003DCC5E /* ACFoursquareWSClientTests.m */,
+				389408F11CB62D31003DCC5E /* ACFoursquareVenueServiceTests.m */,
+				389408F31CB62F15003DCC5E /* ACFoursquareWSResponseTests.m */,
+				389408F51CB63320003DCC5E /* ACFoursquareVenueTests.m */,
+			);
+			path = CoffeeFinderTests;
+			sourceTree = "<group>";
+		};
+		388977361CB46AE60032E11C /* CoffeeFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				388977371CB46AE60032E11C /* CoffeeFinderUITests.m */,
+				388977391CB46AE60032E11C /* Info.plist */,
+			);
+			path = CoffeeFinderUITests;
+			sourceTree = "<group>";
+		};
+		DCA00A21C5090632DCB33060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				387248AE1CB4C7A1004325FE /* CoreLocation.framework */,
+				30A207BFC9C80993B2985685 /* libPods-CoffeeFinder.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3889770E1CB46AE50032E11C /* CoffeeFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3889773C1CB46AE60032E11C /* Build configuration list for PBXNativeTarget "CoffeeFinder" */;
+			buildPhases = (
+				5B4BF5D54A0D7DCC9E5516D4 /* Check Pods Manifest.lock */,
+				3889770B1CB46AE50032E11C /* Sources */,
+				3889770C1CB46AE50032E11C /* Frameworks */,
+				3889770D1CB46AE50032E11C /* Resources */,
+				CABC0286B56729FF8AC994AE /* Embed Pods Frameworks */,
+				D06FB16A6BDE84584DF2C3DA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeFinder;
+			productName = CoffeeFinder;
+			productReference = 3889770F1CB46AE60032E11C /* CoffeeFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		388977271CB46AE60032E11C /* CoffeeFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3889773F1CB46AE60032E11C /* Build configuration list for PBXNativeTarget "CoffeeFinderTests" */;
+			buildPhases = (
+				388977241CB46AE60032E11C /* Sources */,
+				388977251CB46AE60032E11C /* Frameworks */,
+				388977261CB46AE60032E11C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3889772A1CB46AE60032E11C /* PBXTargetDependency */,
+			);
+			name = CoffeeFinderTests;
+			productName = CoffeeFinderTests;
+			productReference = 388977281CB46AE60032E11C /* CoffeeFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		388977321CB46AE60032E11C /* CoffeeFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388977421CB46AE60032E11C /* Build configuration list for PBXNativeTarget "CoffeeFinderUITests" */;
+			buildPhases = (
+				3889772F1CB46AE60032E11C /* Sources */,
+				388977301CB46AE60032E11C /* Frameworks */,
+				388977311CB46AE60032E11C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388977351CB46AE60032E11C /* PBXTargetDependency */,
+			);
+			name = CoffeeFinderUITests;
+			productName = CoffeeFinderUITests;
+			productReference = 388977331CB46AE60032E11C /* CoffeeFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		388977071CB46AE50032E11C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Acarrillo Enterprises Pty Ltd";
+				TargetAttributes = {
+					3889770E1CB46AE50032E11C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					388977271CB46AE60032E11C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3889770E1CB46AE50032E11C;
+					};
+					388977321CB46AE60032E11C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3889770E1CB46AE50032E11C;
+					};
+				};
+			};
+			buildConfigurationList = 3889770A1CB46AE50032E11C /* Build configuration list for PBXProject "CoffeeFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 388977061CB46AE50032E11C;
+			productRefGroup = 388977101CB46AE60032E11C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3889770E1CB46AE50032E11C /* CoffeeFinder */,
+				388977271CB46AE60032E11C /* CoffeeFinderTests */,
+				388977321CB46AE60032E11C /* CoffeeFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3889770D1CB46AE50032E11C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388977221CB46AE60032E11C /* LaunchScreen.storyboard in Resources */,
+				387248C01CB55A39004325FE /* ACCoffeeFinderTableViewCell.xib in Resources */,
+				3889771F1CB46AE60032E11C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388977261CB46AE60032E11C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388977311CB46AE60032E11C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B4BF5D54A0D7DCC9E5516D4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CABC0286B56729FF8AC994AE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoffeeFinder/Pods-CoffeeFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D06FB16A6BDE84584DF2C3DA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoffeeFinder/Pods-CoffeeFinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3889770B1CB46AE50032E11C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387248B81CB52C33004325FE /* ACFoursquareWSResponse.m in Sources */,
+				387248B51CB50F5A004325FE /* ACFoursquareVenuesService.m in Sources */,
+				387248BB1CB5459E004325FE /* ACFoursquareVenue.m in Sources */,
+				389408EE1CB5ED03003DCC5E /* ACCoffeeFinderTableViewCell.m in Sources */,
+				388977171CB46AE60032E11C /* AppDelegate.m in Sources */,
+				388977141CB46AE60032E11C /* main.m in Sources */,
+				388977471CB46CF20032E11C /* ACCoffeeFinderViewController.m in Sources */,
+				38151FA41CB4A2B100FF55DD /* ACFoursquareWSClient.m in Sources */,
+				387248B21CB50210004325FE /* ACUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388977241CB46AE60032E11C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3889772D1CB46AE60032E11C /* CoffeeFinderTests.m in Sources */,
+				389408F41CB62F15003DCC5E /* ACFoursquareWSResponseTests.m in Sources */,
+				389408F01CB61FF6003DCC5E /* ACFoursquareWSClientTests.m in Sources */,
+				389408F21CB62D31003DCC5E /* ACFoursquareVenueServiceTests.m in Sources */,
+				389408F61CB63320003DCC5E /* ACFoursquareVenueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3889772F1CB46AE60032E11C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388977381CB46AE60032E11C /* CoffeeFinderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3889772A1CB46AE60032E11C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3889770E1CB46AE50032E11C /* CoffeeFinder */;
+			targetProxy = 388977291CB46AE60032E11C /* PBXContainerItemProxy */;
+		};
+		388977351CB46AE60032E11C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3889770E1CB46AE50032E11C /* CoffeeFinder */;
+			targetProxy = 388977341CB46AE60032E11C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		388977201CB46AE60032E11C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388977211CB46AE60032E11C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3889773A1CB46AE60032E11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3889773B1CB46AE60032E11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3889773D1CB46AE60032E11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9A4A681307F77F2A8AC298 /* Pods-CoffeeFinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoffeeFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acarrillo.CoffeeFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3889773E1CB46AE60032E11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220D44B089B252DDEE319E2F /* Pods-CoffeeFinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoffeeFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acarrillo.CoffeeFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		388977401CB46AE60032E11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9A4A681307F77F2A8AC298 /* Pods-CoffeeFinder.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoffeeFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acarrillo.CoffeeFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeFinder.app/CoffeeFinder";
+			};
+			name = Debug;
+		};
+		388977411CB46AE60032E11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220D44B089B252DDEE319E2F /* Pods-CoffeeFinder.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoffeeFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acarrillo.CoffeeFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeFinder.app/CoffeeFinder";
+			};
+			name = Release;
+		};
+		388977431CB46AE60032E11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9A4A681307F77F2A8AC298 /* Pods-CoffeeFinder.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CoffeeFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acarrillo.CoffeeFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoffeeFinder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		388977441CB46AE60032E11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220D44B089B252DDEE319E2F /* Pods-CoffeeFinder.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CoffeeFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acarrillo.CoffeeFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoffeeFinder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3889770A1CB46AE50032E11C /* Build configuration list for PBXProject "CoffeeFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3889773A1CB46AE60032E11C /* Debug */,
+				3889773B1CB46AE60032E11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3889773C1CB46AE60032E11C /* Build configuration list for PBXNativeTarget "CoffeeFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3889773D1CB46AE60032E11C /* Debug */,
+				3889773E1CB46AE60032E11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3889773F1CB46AE60032E11C /* Build configuration list for PBXNativeTarget "CoffeeFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388977401CB46AE60032E11C /* Debug */,
+				388977411CB46AE60032E11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388977421CB46AE60032E11C /* Build configuration list for PBXNativeTarget "CoffeeFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388977431CB46AE60032E11C /* Debug */,
+				388977441CB46AE60032E11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 388977071CB46AE50032E11C /* Project object */;
+}
